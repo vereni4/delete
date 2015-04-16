@@ -1,0 +1,62 @@
+<?php
+
+return array(
+  // HEADER
+  'TITLE'         => 'APHIT.COM',
+  'LOGO'          => 'Cars, travels, hobby...',
+  'LANG'          => 'Language',
+  'LOGIN'         => 'Login',
+  'REGISTRATION'  => 'Registration',
+  'EXIT'          => 'Exit',
+  // FOOTER
+  'COPYRIGHT'     => '2015 APHIT.COM',
+  // LEFT BAR
+  'MAIN'          => 'Main',
+  'MENU'          => 'Menu',
+  'ARTICLE_INSERT'=> 'Insert a new article',
+  // MAIN
+  'EDIT'          => 'Edit',
+  'DELETE'        => 'Delete',
+  'READ_MORE'     => 'Read more...',
+  'LOGIN_2'       => 'Login:',
+  'PASS'          => 'Password:',
+  'PASS_2'        => 'Password 2:',
+  'EMAIL'         => 'Email:',
+  'NAME'          => 'Name',
+  'SURNAME'       => 'Surname',
+  'REG_DATE'      => 'Registr. date',
+  'DATE_OF_VISIT' => 'Last date',
+  'LOGIN_3'       => 'Login',
+  'ARTICLE_TITLE' => 'Article title:',
+  'IMAGE'         => 'Image:',
+  'ARTICLE_TEXT'  => 'Article text:',
+  'SAVE'          => 'Save',
+  'BACK'          => 'Back',
+  'NEXT'          => 'Next',
+  'COMMENT_TITLE' => 'Title',
+  'ADD_COMMENT'   => 'Add comment',
+  'SEND'          => 'Send',
+  // ERRORS
+  'ERROR_1'       => 'No data to enter.',
+  'ERROR_2'       => 'Incorrect URL.',
+  'ERROR_3'       => 'In that category no articles.',
+  'ERROR_4'       => 'Incorrect your selection by categories.',
+  'ERROR_5'       => 'Incorrect data to display the menu.',
+  'ERROR_6'       => 'No data found at:',
+  'ERROR_7'       => 'Incorrect data for output.',
+  'ERROR_8'       => 'Not filled login or password!',
+  'ERROR_9'       => 'Could not find user with the login and password!',
+  'ERROR_10'      => 'You are logged in!',
+  'ERROR_11'      => 'Could not get out!',
+  'ERROR_12'      => 'Could not upload picture!',
+  'ERROR_13'      => 'Not all fields!',
+  'ERROR_14'      => 'Unable to write data to the database!',
+  'ERROR_15'      => 'No access!',
+  'ERROR_16'      => 'No access!',
+  'ERROR_17'      => 'Could not delete data from us:',
+  'ERROR_18'      => 'Incorrect data to be deleted.',
+  'ERROR_19'      => 'Passwords do not match!',
+  'ERROR_20'      => 'The user with the username already registered!',
+);
+
+?>

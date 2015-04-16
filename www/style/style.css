@@ -1,0 +1,292 @@
+body {
+  font: normal small Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: justify;
+  font-size: 13px;
+  margin: 0 auto 10px auto;
+  width: 780px;
+  background-color: #c3c3c3;
+  background-image: url(../images/bg2.gif);
+  background-repeat: repeat-x;
+}
+
+#language {
+  position: absolute;
+  margin-top: -10px;
+}
+
+#reg-auth p {
+  text-align: right;
+}
+
+#reg-auth a {
+    font: 14px sans-serif;
+    text-decoration: none;
+    color: #EF662B;
+    margin-left: 10px;
+    border-bottom: 1px dashed #EF662B;
+}
+
+#reg-auth a:hover{
+    border-bottom: none;
+}
+
+#border {
+  border: 5px solid #ffffff;
+  background-image: url(../images/bg.gif);
+  background-repeat: repeat-y;
+}
+
+#header {
+  background-color: #CDCCCB;
+  height: 205px;
+}
+
+#left {
+  width: 350px;
+  height: 205px;
+  text-align: left;
+  float: left;
+}
+
+#car {
+  border-left: 2px solid #9E191E;
+  height: 205px;
+  width: 418px;
+  background: url(../images/header.jpg);
+  float: left;
+}
+
+.name {
+  font-size: 32px;
+  color: #3C3C3C;
+  font-family: "trebuchet ms", sans-serif;
+  text-transform: uppercase;
+  padding-top: 55px;
+  padding-left: 15px;
+}
+
+.tag {
+  padding-left: 17px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #9E191E;
+  height: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.sap2 {
+  color: #9E1C1C;
+  width: 6px;
+  text-align: center;
+  float: left;
+}
+
+.toplinks {
+  color: #9E1C1C;
+  text-transform: uppercase;
+  font-family: "trebuchet ms";
+  width: 105px;
+  float: left;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+.toplinks a {
+  color: #9E1C1C;
+  text-decoration: none;
+}
+
+.toplinks a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#mainarea {
+  width: 610px;
+  margin-bottom: 10px;
+  background-image: url(../images/heading-bg.gif);
+  background-repeat: repeat-x;
+  float: left;
+}
+
+.quick-bg {
+  width: 160px;
+  text-align: left;
+  float: left;
+}
+
+.heading {
+  height: 51px;
+  font-size: 15px;
+  color: #560001;
+  text-align: left;
+  line-height: 51px;
+  background-image: url(../images/rc.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.heading2 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "trebuchet ms";
+  color: #A1181C;
+}
+
+#main {
+  color: #303335;
+  text-align: left;
+  padding: 10px;
+
+}
+
+.pagination {
+  text-align: center;
+}
+
+.author {
+  color: #B6B6B6;
+}
+
+.author a {
+  color: #B6B6B6;
+  font-weight: normal;
+}
+
+a {
+  color: #DE5202;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #DE5202;
+  text-decoration: none;
+}
+
+.quick-links {
+  height: 35px;
+  line-height: 35px;
+  color: #DE5202;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.quick-links a {
+  color: #FDCA00;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.quick-links a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#bottom {
+  height: 40px;
+  line-height: 40px;
+  background-color: #B6B6B6;
+  width: 770px;
+  float: left;
+}
+
+.copy {
+  clear: left;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: black;
+}
+
+#rc-bg {
+  width: 144px;
+  height :51px;
+  line-height: 51px;
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #9E1C1C;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "trebuchet ms";
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+#spacer {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.products {
+  width: 168px;
+  border: 2px dotted #BCBCBC;
+  margin-left: 10px;
+  height: 140px;
+  float: left;
+}
+
+#form_user {
+  width: 250px;
+}
+
+#form_user > p {
+  text-align: right;
+}
+
+#article-edit {
+  font-size: 18px;
+  font-family: "trebuchet ms";
+  text-align: right;
+}
+
+.article-edit-enabled {
+  font-weight: bold;
+  color: #A1181C;
+  cursor: default;
+}
+
+.article-edit-disabled {
+  color: gray;
+  cursor: pointer;
+}
+
+.article-edit-disabled:hover {
+  border-bottom: 1px solid gray;
+}
+
+/*COMMENTS*/
+
+.comments-template{
+  margin: 10px 0 0;
+  border-top: 1px solid #ccc;
+  padding: 10px 0 0;
+}
+
+.comments-template ol{
+  margin: 0;
+  padding: 0 0 15px;
+  list-style: none;
+}
+
+.comments-template ol li{
+  margin: 10px 0 0;
+  line-height: 18px;
+  padding: 0 0 10px;
+  border-top: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+  font-family: Georgia, Sans-serif;
+  font-size: 16px;
+}
+
+.comments-template textarea{
+  font-family: Arial, Helvetica, Georgia, Sans-serif;
+  font-size: 12px;
+}
